@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      
+    </script>
+</head>
+<body>
+    <section class="gradient-bg">
+        <h1 class="text-5xl text-center text-white">Simple Calculator</h1>
+        <form action="" name="form">
+            <div class="my-5 px-52 py-20 grid bg-gray-700">
+                <input class="text-right text-5xl font-bold mx-52 px-7 py-10 bg-gray-900 rounded-lg text-white" type="text" name="display" id="" value="" placeholder="0">
+            
+            <div class="grid grid-cols-4 mx-52 gap-2 mt-2">
+
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="7" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="8" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="9" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="+" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="4" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="5" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="6" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="*" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="1" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="2" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="3" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="-" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="0" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="00" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="." onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg buttons" value="/" onclick="calculate(this.value)">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg col-span-2" value="C" onclick="display.value = null">
+                <input type="button" name="btn" id="" class="px-4 py-8 text-2xl text-white font-semibold bg-gray-800 rounded-lg col-span-2" value="=" onclick="display.value=eval(display.value)">
+
+            </div>
+        </div>
+        </form>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
